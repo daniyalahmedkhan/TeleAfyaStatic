@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+
+        android:id="@+id/timeline_header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@mipmap/profile_bg">
+
+        <ImageView
+            android:id="@+id/back_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Select Location"
+            android:textColor="#fff" />
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:layout_below="@+id/timeline_header"
+        android:background="#fff"
+        android:textColor="#000"
+        android:drawablePadding="10dp"
+        android:textSize="12sp"
+        android:textColorHint="#c9c6c6"
+        android:hint="Search Countries"
+        android:layout_marginBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:drawableLeft="@mipmap/search_country"
+        android:paddingRight="15dp"
+        android:id="@+id/search_time_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <ExpandableListView
+            android:layout_below="@+id/search_time_post"
+            android:background="#fff"
+            android:layout_above="@+id/locate_area"
+            android:groupIndicator="@null"
+            android:id="@+id/select_country_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </ExpandableListView>
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/locate_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:background="#58a7f2"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:orientation="horizontal" >
+
+        <TextView
+
+
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:text="Detect My Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginLeft="15dp"
+            android:background="@mipmap/detect_my_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

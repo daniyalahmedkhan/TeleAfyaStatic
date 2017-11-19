@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:id="@+id/home_container"
+        tools:context="com.example.ast.teleafya.Ui.Pharmacy_Ui.Pharmacy_AddMedicine">
+
+
+        <RelativeLayout
+            android:id="@+id/timeline_header"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@mipmap/profile_bg">
+
+            <ImageView
+                android:id="@+id/back_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:layout_marginLeft="15dp"
+                android:background="@mipmap/back" />
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/home_user_name"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:text="Add &amp; Update Medicine"
+                android:textColor="#fff" />
+
+
+            <ImageView
+                android:id="@+id/add_medicine"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@mipmap/add" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:background="#fff"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <EditText
+                        android:background="#fff"
+                        android:textColor="#000"
+                        android:drawablePadding="10dp"
+                        android:textSize="12sp"
+                        android:textColorHint="#c9c6c6"
+                        android:hint="Search"
+                        android:layout_marginBottom="5dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="15dp"
+                        android:drawableRight="@mipmap/filter"
+                        android:drawableLeft="@mipmap/search"
+                        android:paddingRight="15dp"
+                        android:id="@+id/search_time_post"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:textColor="#7391a2"
+                    android:padding="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Medicine Suggestions"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <ListView
+                    android:layout_marginTop="10dp"
+                    android:dividerHeight="0dp"
+                    android:divider="@color/transparent"
+                    android:id="@+id/medicine_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></ListView>
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+

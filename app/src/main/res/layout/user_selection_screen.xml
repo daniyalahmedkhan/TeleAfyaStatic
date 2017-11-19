@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context="com.example.ast.teleafya.Ui.Activities.User_Selection_Screen">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@mipmap/teleafya_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:text="TELEAFYA MISSION"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <TextView
+            android:fontFamily="s"
+            android:textColor="#fff"
+            android:text="&quot;MAKE HEALTH CARE ACCESSIBLE"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#fff"
+            android:text="TO EVERYONE"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:text="WHO YOU ARE?"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:background="@drawable/border_splash_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:id="@+id/doctor_container"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:background="@mipmap/doctor"
+                        android:layout_width="40dp"
+                        android:layout_height="100dp"  />
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#fff"
+                        android:text="DOCTOR"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:background="@drawable/border_splash"
+                    android:id="@+id/nurse_container"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:background="@mipmap/nurse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#fff"
+                        android:text="NURSE"
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@drawable/border_splash_bottom"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/patient_container"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/patient"
+                        android:layout_width="30dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:layout_marginBottom="5dp"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#fff"
+                        android:text="PATIENT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/diagnostic_container"
+                    android:gravity="center"
+                    android:background="@drawable/border_splash"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/diagnostic_lab"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"  />
+                    <TextView
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#fff"
+                        android:text="DIAGNOSTIC LAB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <LinearLayout
+                    android:id="@+id/dentist_container"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_marginTop="12dp"
+
+                        android:background="@mipmap/dentist"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"  />
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#fff"
+                        android:text="DENTIST"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/home_aid_midwive"
+                    android:background="@drawable/border_splash"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+
+                    <ImageView
+                        android:layout_marginTop="10dp"
+                        android:background="@mipmap/home_aide_midwive"
+                        android:layout_width="40dp"
+                        android:layout_height="100dp" />
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:textColor="#fff"
+                        android:text="HOME AID/MIDWIVE"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/profile_bg">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/menu"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:paddingBottom="20dp"
+           >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dr_vijay_sharma"
+            app:civ_border_color="#FF000000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr.John"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:id="@+id/NameHeading"
+            android:layout_below="@id/profile_image"
+            android:layout_centerHorizontal="true"
+            />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mumbai Hiranandani health center"
+               android:textColor="@color/colorWhite"
+               android:id="@+id/NameHeading2"
+               android:layout_below="@id/NameHeading"
+               android:layout_centerHorizontal="true"
+               />
+
+
+
+
+
+
+
+       </RelativeLayout>
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/settings"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentRight="true"
+
+            />
+
+    </RelativeLayout>
+
+
+
+
+    </RelativeLayout>

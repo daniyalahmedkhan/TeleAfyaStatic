@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="5dp"
+            android:id="@+id/provider_image"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+
+
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+        <LinearLayout
+            android:background="#fff"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:weightSum="1"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_weight="1.1"
+                    android:id="@+id/provider_name"
+                    android:textStyle="bold"
+                    android:textColor="#346da3"
+                    android:layout_marginLeft="5dp"
+                    android:text="Dr. Vijay Sharma"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:focusable="false"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:textColor="#fff"
+                    android:textAllCaps="false"
+                    android:text="10.00"
+                    android:background="@drawable/button_edges_dblue"
+                    android:layout_width="45dp"
+                    android:layout_height="20dp" />
+            </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+
+                        <TextView
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="2dp"
+                            android:textSize="8sp"
+                            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

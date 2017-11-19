@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical"
+            android:background="#b7e4edf5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal" android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    card_view:cardElevation="5dp"
+                    card_view:cardUseCompatPadding="true"
+                    >
+                <LinearLayout
+                    android:background="#fff"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_marginStart="80dp"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:weightSum="1"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:textStyle="bold"
+                                android:textColor="#346da3"
+                                android:layout_marginLeft="5dp"
+                                android:layout_weight="0.8"
+                                android:text="Dr. Vijay Sharma"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <Button
+                                android:focusable="false"
+                                android:textStyle="bold"
+                                android:textSize="10sp"
+                                android:textColor="#fff"
+                                android:textAllCaps="false"
+                                android:text="Paid"
+                                android:background="@drawable/button_edges_dblue"
+                                android:layout_width="45dp"
+                                android:layout_height="20dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:weightSum="2"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:background="@mipmap/app_monthly"
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp" />
+
+                                    <TextView
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_marginTop="2dp"
+                                        android:textSize="8sp"
+                                        android:text="Monthly CheckUp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:background="@mipmap/app_time"
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp" />
+
+                                    <TextView
+
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_marginTop="2dp"
+                                        android:textSize="8sp"
+                                        android:text="Time"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                </LinearLayout>
+
+
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:background="@mipmap/app_hiranandani_icon"
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp" />
+
+                                    <TextView
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_marginTop="2dp"
+                                        android:textSize="8sp"
+                                        android:text="Monthly CheckUp"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_marginTop="2dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:background="@mipmap/app_home_visit"
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp" />
+
+                                    <TextView
+                                        android:layout_marginLeft="3dp"
+                                        android:layout_marginTop="2dp"
+                                        android:textSize="8sp"
+                                        android:text="Home Visit"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+
+                                </LinearLayout>
+
+
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+</android.support.v7.widget.CardView>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/button_edges_dblue"
+                android:id="@+id/profile_image"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="20dp"
+                >
+                <ImageView
+                    android:background="@mipmap/new_order_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:textSize="10sp"
+                    android:textColor="#fff"
+                    android:text="12346"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+
+        </RelativeLayout>
+</RelativeLayout>
