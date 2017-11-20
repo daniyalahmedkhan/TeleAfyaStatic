@@ -54,7 +54,7 @@ public class Recommanded_DiagnosticLab extends android.support.v4.app.Fragment {
 
                 getActivity().getSupportFragmentManager()
                         .beginTransaction()
-                        .add(android.R.id.content, new Diagnostic_Center_Profile() )
+                        .replace(R.id.provider_con,new Lipid_Profile_TestTab())
                         .addToBackStack(null)
                         .commit();
 

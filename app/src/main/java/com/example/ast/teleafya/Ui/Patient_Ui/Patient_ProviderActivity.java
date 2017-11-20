@@ -10,6 +10,7 @@ import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.example.ast.teleafya.R;
 import com.example.ast.teleafya.Ui.Adapters.ProviderList_PatientAdapter;
@@ -103,11 +104,37 @@ public class Patient_ProviderActivity extends AppCompatActivity {
         provider_list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                getSupportFragmentManager()
+
+                //int position = 0;
+//                getSupportFragmentManager()
+//                        .beginTransaction()
+//                        .add(R.id.provider_con,new Diagnostic_Provider())
+//                        .addToBackStack(null)
+//                        .commit();
+
+                if(i == 0){
+
+                    getSupportFragmentManager()
                         .beginTransaction()
-                        .add(R.id.provider_con,new Diagnostic_Provider())
+                            .add(R.id.provider_con,new Diagnostic_Provider())
                         .addToBackStack(null)
                         .commit();
+
+                }
+                else if (i == 1){
+
+
+                    getSupportFragmentManager()
+                            .beginTransaction()
+                            .add(R.id.provider_con,new Select_Service())
+                            .addToBackStack(null)
+                            .commit();
+
+
+                }
+
+
+               // Toast.makeText(Patient_ProviderActivity.this , "Pos"+i , Toast.LENGTH_SHORT).show();
             }
         });
 

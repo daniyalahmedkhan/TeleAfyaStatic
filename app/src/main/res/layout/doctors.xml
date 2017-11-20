@@ -9,44 +9,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-
-        <RelativeLayout
-            android:id="@+id/toolbar_outside"
-            android:background="@mipmap/profile_bg"
-            android:layout_width="match_parent"
-            android:layout_height="80dp">
-
-            <TextView
-                android:textSize="20sp"
-                android:textColor="#fff"
-                android:layout_marginTop="40dp"
-                android:layout_centerHorizontal="true"
-                android:text="Select Service"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-            <ImageView
-                android:id="@+id/back_home"
-                android:layout_marginTop="45dp"
-                android:layout_marginLeft="15dp"
-                android:background="@mipmap/back"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@mipmap/location_white"
-                android:layout_alignParentEnd="true"
-                android:layout_marginRight="20dp"
-                android:layout_marginTop="45dp"
-
-                />
-
-        </RelativeLayout>
-
-
         <RelativeLayout
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
@@ -78,7 +40,7 @@
 
         <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/card_view1"
+            android:id="@+id/card_view2"
             android:background="#fff"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
@@ -183,7 +145,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="3dp"
                                             android:layout_marginTop="2dp"
-                                            android:text="13:00 AM"
+                                            android:text="Hirandani Hospital"
                                             android:textSize="8sp" />
 
                                     </LinearLayout>
@@ -197,14 +159,14 @@
                                         <ImageView
                                             android:layout_width="15dp"
                                             android:layout_height="15dp"
-                                            android:background="@mipmap/calendar" />
+                                            android:background="@mipmap/dentist_white" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="3dp"
                                             android:layout_marginTop="2dp"
-                                            android:text="Mon To Fri"
+                                            android:text="MD-MDS Dentist"
                                             android:textSize="8sp" />
 
                                     </LinearLayout>
@@ -223,7 +185,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="3dp"
                                             android:layout_marginTop="2dp"
-                                            android:text="Mon To Fri"
+                                            android:text="Powai, Mumbai.."
                                             android:textSize="8sp" />
 
                                     </LinearLayout>
@@ -243,14 +205,14 @@
                                         <ImageView
                                             android:layout_width="15dp"
                                             android:layout_height="15dp"
-                                            android:background="@mipmap/mpin" />
+                                            android:background="@mipmap/exp" />
 
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="3dp"
                                             android:layout_marginTop="2dp"
-                                            android:text="7Km Away"
+                                            android:text="10 yrs exp"
                                             android:textSize="8sp" />
 
                                     </LinearLayout>
@@ -271,7 +233,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="3dp"
                                             android:layout_marginTop="2dp"
-                                            android:text="Home Visit"
+                                            android:text="10am-08pm"
                                             android:textSize="8sp" />
 
                                     </LinearLayout>
@@ -284,7 +246,7 @@
                                         <ImageView
                                             android:layout_width="15dp"
                                             android:layout_height="15dp"
-                                            android:background="@mipmap/available" />
+                                            android:background="@mipmap/pin" />
 
                                         <TextView
 

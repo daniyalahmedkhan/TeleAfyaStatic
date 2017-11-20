@@ -432,7 +432,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="20dp"
-                android:src="@mipmap/city"
+                android:src="@mipmap/arrow"
                 />
 
 
@@ -467,8 +467,9 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/date"
+                        android:src="@mipmap/tab"
                         android:id="@+id/Clock"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -536,9 +537,9 @@
 
                 <View
                     android:layout_width="1dp"
-                    android:layout_height="90dp"
+                    android:layout_height="95dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="52dp"
 
                     />
@@ -568,7 +569,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/order_mobile"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -650,9 +652,9 @@
 
                 <View
                     android:layout_width="1dp"
-                    android:layout_height="90dp"
+                    android:layout_height="100dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -685,8 +687,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/photos1"
-
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
                         />
 
                     <TextView
@@ -769,7 +771,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -799,7 +801,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/pin2"
+                        android:src="@mipmap/tab"
 
                         />
 
@@ -890,7 +892,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="20dp"
-                android:src="@mipmap/city"
+                android:src="@mipmap/arrow"
                 />
 
 
@@ -925,7 +927,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/date"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
                         android:id="@+id/Clock2"
 
                         />
@@ -987,7 +990,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="52dp"
 
                     />
@@ -1017,7 +1020,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/order_mobile"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1078,7 +1082,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -1111,7 +1115,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/photos1"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1177,7 +1182,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -1207,7 +1212,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/pin2"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1301,7 +1307,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="20dp"
-                android:src="@mipmap/city"
+                android:src="@mipmap/arrow"
                 />
 
 
@@ -1336,7 +1342,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/date"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
                         android:id="@+id/Clock23rd"
 
                         />
@@ -1398,7 +1405,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="52dp"
 
                     />
@@ -1428,7 +1435,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/order_mobile"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1489,7 +1497,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -1522,7 +1530,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/photos1"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1588,7 +1597,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -1618,7 +1627,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/pin2"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1712,7 +1722,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="20dp"
-                android:src="@mipmap/city"
+                android:src="@mipmap/arrow"
                 />
 
 
@@ -1747,7 +1757,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/date"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
                         android:id="@+id/Clock24th"
 
                         />
@@ -1809,7 +1820,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="52dp"
 
                     />
@@ -1839,7 +1850,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/order_mobile"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1900,7 +1912,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -1933,7 +1945,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/photos1"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -1999,7 +2012,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -2029,7 +2042,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/pin2"
+                        android:src="@mipmap/tab"
 
                         />
 
@@ -2124,7 +2137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_marginRight="20dp"
-                android:src="@mipmap/city"
+                android:src="@mipmap/arrow"
                 />
 
 
@@ -2159,7 +2172,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/date"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
                         android:id="@+id/Clock25th"
 
                         />
@@ -2221,7 +2235,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="52dp"
 
                     />
@@ -2251,7 +2265,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/order_mobile"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -2312,7 +2327,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -2345,7 +2360,8 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/photos1"
+                        android:src="@mipmap/tab"
+                        android:layout_marginTop="8dp"
 
                         />
 
@@ -2411,7 +2427,7 @@
                     android:layout_width="1dp"
                     android:layout_height="90dp"
                     android:background="@color/colorGrey"
-                    android:layout_marginLeft="35dp"
+                    android:layout_marginLeft="28dp"
                     android:layout_marginTop="20dp"
 
                     />
@@ -2441,7 +2457,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@mipmap/pin2"
+                        android:src="@mipmap/tab"
 
                         />
 
