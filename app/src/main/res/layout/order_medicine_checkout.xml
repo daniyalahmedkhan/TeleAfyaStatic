@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
 
     <RelativeLayout
         android:id="@+id/toolbar_outside"
@@ -181,6 +188,7 @@
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_marginTop="30dp"
+        android:id="@+id/Slider"
         android:layout_height="wrap_content">
 
 
@@ -211,5 +219,128 @@
     </HorizontalScrollView>
 
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@color/colorWhite"
+        android:layout_below="@id/Slider">
 
-</LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subtotal"
+            android:id="@+id/sub"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginLeft="30dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shipping Charge"
+            android:id="@+id/sub2"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/sub"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginLeft="30dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$220"
+            android:id="@+id/Price"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorText"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$30"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/Price"
+            android:id="@+id/Price2"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorText"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/view1"
+            android:background="@color/colorGrey"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/sub2"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:id="@+id/sub3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/view1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_marginLeft="30dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$250"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/Price2"
+            android:id="@+id/Price3"
+            android:textStyle="bold"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@color/colorText"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentEnd="true"
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sub3"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+            android:background="#58a7f2"
+            android:text="Checkout"
+            android:textColor="@color/colorWhite"
+            android:drawableRight="@mipmap/next_arrow_white"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:drawablePadding="20dp"
+            />
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
