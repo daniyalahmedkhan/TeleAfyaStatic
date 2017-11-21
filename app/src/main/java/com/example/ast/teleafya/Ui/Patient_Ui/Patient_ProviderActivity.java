@@ -131,6 +131,16 @@ public class Patient_ProviderActivity extends AppCompatActivity {
                             .commit();
 
 
+                }else if (i == 2){
+
+
+                    getSupportFragmentManager()
+                            .beginTransaction()
+                            .add(R.id.provider_con,new Nurses_Tab())
+                            .addToBackStack(null)
+                            .commit();
+
+
                 }
 
 
