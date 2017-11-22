@@ -83,6 +83,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/LargeRound"
+                android:visibility="gone"
                 android:src="@mipmap/book_appointment"
                 />
 
@@ -92,6 +93,8 @@
                 android:id="@+id/SmallRound"
                 android:src="@mipmap/book_appointment_date"
                 />
+
+
 
 
         </RelativeLayout>
@@ -104,6 +107,8 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:id="@+id/Linear1"
+            android:visibility="gone"
+            android:layout_marginTop="-290dp"
             android:layout_below="@id/Relative1">
 
             <com.aigestudio.wheelpicker.widgets.WheelDayPicker
@@ -144,7 +149,7 @@
             android:paddingTop="20dp"
             android:id="@+id/Relative2"
             android:layout_below="@id/Linear1"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="-25dp">
 
 
 
@@ -181,6 +186,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:id="@+id/Linear2"
+            android:visibility="gone"
             android:paddingBottom="20dp"
             >
 

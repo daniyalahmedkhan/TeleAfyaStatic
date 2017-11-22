@@ -59,6 +59,7 @@
             android:textColor="#000"
             android:drawablePadding="10dp"
             android:textSize="12sp"
+            android:elevation="5dp"
             android:textColorHint="#c9c6c6"
             android:hint="Search"
             android:paddingLeft="15dp"
@@ -76,7 +77,7 @@
         android:layout_width="match_parent"
         android:layout_below="@id/edir"
         android:id="@+id/upload"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:paddingTop="15dp"
         android:paddingBottom="15dp"
@@ -140,6 +141,7 @@
         <LinearLayout
             android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
+            android:id="@+id/LIPID"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 

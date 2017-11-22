@@ -203,14 +203,15 @@
 
                    <TextView
                        android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
+                       android:layout_height="40dp"
                        android:textColor="@color/colorText"
                         android:layout_gravity="center"
                        android:text="MEDICINES"
+                       android:gravity="center"
                        android:id="@+id/Medi"
                        android:textStyle="bold"
                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                       android:layout_marginTop="25dp"
+                       android:layout_marginTop="15dp"
                        />
 
                    <TextView
@@ -274,14 +275,15 @@
 
                    <TextView
                        android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
+                       android:layout_height="40dp"
                        android:textColor="@color/colorText"
                        android:layout_gravity="center"
                        android:text="LAB TESTS"
                        android:id="@+id/Medi2"
+                       android:gravity="center"
                        android:textStyle="bold"
                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                       android:layout_marginTop="25dp"
+                       android:layout_marginTop="15dp"
                        />
 
                    <TextView
@@ -362,14 +364,15 @@
 
                    <TextView
                        android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
+                       android:layout_height="40dp"
                        android:textColor="@color/colorText"
                        android:layout_gravity="center"
                        android:text="HEALTH PRODUCTS"
                        android:id="@+id/Medi3"
+                       android:gravity="center"
                        android:textStyle="bold"
                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                       android:layout_marginTop="25dp"
+                       android:layout_marginTop="15dp"
                        />
 
                    <TextView
@@ -433,14 +436,15 @@
 
                    <TextView
                        android:layout_width="wrap_content"
-                       android:layout_height="wrap_content"
+                       android:layout_height="40dp"
                        android:textColor="@color/colorText"
                        android:layout_gravity="center"
                        android:text="PAST ORDERS"
                        android:id="@+id/Medi4"
+                       android:gravity="center"
                        android:textStyle="bold"
                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
-                       android:layout_marginTop="25dp"
+                       android:layout_marginTop="15dp"
                        />
 
                    <TextView
@@ -467,9 +471,9 @@
            android:layout_height="wrap_content"
            android:layout_below="@id/top2"
            android:paddingBottom="30dp"
-           android:layout_marginBottom="20dp"
+           android:layout_marginBottom="10dp"
            android:background="@color/colorWhite"
-           android:layout_marginTop="10dp">
+           android:layout_marginTop="20dp">
 
 
            <TextView

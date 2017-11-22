@@ -87,7 +87,7 @@
                             android:textStyle="bold"
                             android:id="@+id/center_text1"
                             android:layout_centerHorizontal="true"
-                            android:text="Dr. John  "
+                            android:text="Janvi Sharma"
                             android:textColor="@color/colorWhite"
                             android:layout_below="@id/center_image"
 
@@ -223,7 +223,7 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_marginTop="15dp"
@@ -264,7 +264,7 @@
 
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="80dp"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_marginTop="15dp"
@@ -280,13 +280,13 @@
                                 android:gravity="center"
                                 android:layout_gravity="center"
                                 android:textSize="20dp"
-                                android:text="9 yrs"
+                                android:text="$60"
                                 />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="EXPERIENCE"
+                                android:text="FEE"
                                 android:gravity="center"
                                 android:layout_gravity="center"
                                 />
@@ -311,7 +311,7 @@
                         android:orientation="horizontal">
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="100dp"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_weight="1"
@@ -325,13 +325,13 @@
                                 android:gravity="center"
                                 android:layout_gravity="center"
                                 android:textSize="20dp"
-                                android:text="9 yrs"
+                                android:text="Pediatric"
                                 />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="EXPERIENCE"
+                                android:text="SPECIALIZATION"
                                 android:gravity="center"
                                 android:layout_gravity="center"
                                 />
@@ -342,7 +342,7 @@
 
 
                         <LinearLayout
-                            android:layout_width="wrap_content"
+                            android:layout_width="80dp"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_weight="1"
@@ -356,13 +356,13 @@
                                 android:gravity="center"
                                 android:layout_gravity="center"
                                 android:textSize="20dp"
-                                android:text="9 yrs"
+                                android:text="95%"
                                 />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="EXPERIENCE"
+                                android:text="RATING"
                                 android:gravity="center"
                                 android:layout_gravity="center"
                                 />
@@ -400,7 +400,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative2"
@@ -421,7 +420,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Hospital"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -445,6 +444,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative2show"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -860,7 +861,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5"
@@ -872,7 +872,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/medical_specialists"
                 />
 
 
@@ -881,7 +881,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Medical Specialities"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -905,6 +905,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative5show"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -1275,7 +1277,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5n3"
@@ -1287,7 +1288,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/experiences"
                 />
 
 
@@ -1296,7 +1297,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Experiences"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -1320,6 +1321,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:id="@+id/Relative5n3show"
             android:layout_marginRight="10dp"
             >
 
@@ -1690,7 +1693,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5n4th"
@@ -1702,7 +1704,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/educations"
                 />
 
 
@@ -1711,7 +1713,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Education"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -1735,6 +1737,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative5n4thshow"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -2105,7 +2109,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5n5th"
@@ -2117,7 +2120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/patient_review_highlights"
                 />
 
 
@@ -2126,7 +2129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Patient Review Highlights"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -2150,6 +2153,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative5n5thshow"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -2531,7 +2536,7 @@
                 android:background="#58a7f2"
                 android:textAllCaps="false"
                 android:textColor="#fff"
-                android:text="Book Appointment"
+                android:text="Send Request"
                 android:layout_width="match_parent"
                 android:layout_height="35dp" />
 

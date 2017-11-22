@@ -783,6 +783,7 @@
                 android:layout_centerHorizontal="true"
                 android:background="#58a7f2"
                 android:text="Buy Now"
+                android:id="@+id/PDPbtn"
                 android:textColor="@color/colorWhite"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"

@@ -1,5 +1,7 @@
 package com.example.ast.teleafya.Ui.Patient_Ui;
 
+import android.app.Dialog;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -11,12 +13,13 @@ import android.widget.RelativeLayout;
 import com.example.ast.teleafya.R;
 
 /**
- * Created by Kashif on 11/21/2017.
+ * Created by Kashif on 11/22/2017.
  */
 
-public class Nurse_details extends android.support.v4.app.Fragment {
+public class Doctor_Details extends android.support.v4.app.Fragment {
 
-    Button btn1;
+   Button btn1 , btn2;
+   public Dialog book_dialog;
     RelativeLayout R1,R1S, R2,R2s , R3,R3s , R5,R5s , R6,R6s;
 
     @Override
@@ -24,16 +27,49 @@ public class Nurse_details extends android.support.v4.app.Fragment {
         super.onCreate(savedInstanceState);
     }
 
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.nurse_details,null);
 
+        View view = inflater.inflate(R.layout.doctor_details , null);
 
         btn1 = (Button)view.findViewById(R.id.confirm_app);
 
-        R1 = (RelativeLayout)view.findViewById(R.id.Relative2);
+
+
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                View completeView = getActivity().getLayoutInflater().inflate(R.layout.payment_method_popup, null);
+
+                book_dialog = new Dialog(getActivity());
+                book_dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+                book_dialog.setContentView(completeView);
+                book_dialog.setCancelable(true);
+                book_dialog.show();
+
+                btn2 = (Button)completeView.findViewById(R.id.clinic);
+
+                btn2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                        book_dialog.dismiss();
+
+                        getActivity().getSupportFragmentManager()
+                                .beginTransaction()
+                                .replace(android.R.id.content,new Instant_Payment() )
+                                .addToBackStack(null)
+                                .commit();                    }
+                });
+
+
+            }
+        });
+
+         R1 = (RelativeLayout)view.findViewById(R.id.Relative2);
         R1S = (RelativeLayout)view.findViewById(R.id.Relative2show);
 
 
@@ -52,17 +88,6 @@ public class Nurse_details extends android.support.v4.app.Fragment {
 
         R6 = (RelativeLayout)view.findViewById(R.id.Relative5n5th   );
         R6s = (RelativeLayout)view.findViewById(R.id.Relative5n5thshow);
-
-
-        btn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-
-
-
-            }
-        });
 
         R1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -154,6 +179,9 @@ public class Nurse_details extends android.support.v4.app.Fragment {
 
             }
         });
+
+
+
 
 
         return view;

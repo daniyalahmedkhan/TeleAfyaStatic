@@ -1,5 +1,7 @@
 package com.example.ast.teleafya.Ui.Patient_Ui;
 
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Build;
 import android.support.v4.widget.DrawerLayout;
@@ -155,7 +157,16 @@ public class Patient_HomeActivity extends AppCompatActivity {
                     Intent intent  =new Intent(Patient_HomeActivity.this,Health_VaultActivity.class);
                     startActivity(intent);
                   //  finish();
-                }else if(i==7){
+                }else if (i==5){
+
+
+
+                    Intent intent = new Intent(Patient_HomeActivity.this , Order_Activity.class);
+                    startActivity(intent);
+
+
+                }
+                else if(i==7){
                     Intent intent  =new Intent(Patient_HomeActivity.this,Saved_Article.class);
                     startActivity(intent);
                   //  finish();

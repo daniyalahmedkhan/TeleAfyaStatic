@@ -20,7 +20,6 @@ import com.example.ast.teleafya.R;
 
 public class Book_Test_Appointment extends android.support.v4.app.Fragment {
 
-
     public Button confirm_app;
     public Dialog filter_Regular_Service;
     RelativeLayout relativeLayout, relativeLayout2;
@@ -89,6 +88,7 @@ public class Book_Test_Appointment extends android.support.v4.app.Fragment {
 
                     linearLayout.setVisibility(View.VISIBLE);
                     large.setVisibility(View.VISIBLE);
+                    small.setVisibility(View.GONE);
                 }
 
             }
@@ -102,7 +102,7 @@ public class Book_Test_Appointment extends android.support.v4.app.Fragment {
 
 
                     linearLayout2.setVisibility(View.GONE);
-                    small.setVisibility(View.GONE);
+                   // small.setVisibility(View.GONE);
 
                 }
                 else {
@@ -113,6 +113,16 @@ public class Book_Test_Appointment extends android.support.v4.app.Fragment {
             }
         });
 
+        if (linearLayout.getVisibility() == View.VISIBLE){
+
+            if (linearLayout2.getVisibility() == View.VISIBLE){
+
+                small.setVisibility(View.GONE);
+
+            }
+
+        }
+
 
         return view;
 
@@ -122,4 +132,3 @@ public class Book_Test_Appointment extends android.support.v4.app.Fragment {
 
 
 }
-

@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/drawer_layout"
+    android:background="#fff"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -86,7 +87,7 @@
                             android:textStyle="bold"
                             android:id="@+id/center_text1"
                             android:layout_centerHorizontal="true"
-                            android:text="Dr. John  "
+                            android:text="Dr John"
                             android:textColor="@color/colorWhite"
                             android:layout_below="@id/center_image"
 
@@ -114,66 +115,66 @@
                             android:layout_marginTop="20dp">
 
 
-                          <LinearLayout
-                              android:layout_width="wrap_content"
-                              android:layout_height="12dp"
-                              android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="12dp"
+                                android:orientation="horizontal">
 
 
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginRight="20dp"
-                            android:src="@mipmap/call_white"
-                            />
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="20dp"
+                                    android:src="@mipmap/call_white"
+                                    />
 
-                             <View
-                                 android:layout_width="1dp"
-                                 android:layout_marginRight="20dp"
-                                 android:layout_height="wrap_content"
-                                 android:background="@color/colorGrey"
-                                 />
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorGrey"
+                                    />
 
-                              <ImageView
-                                  android:layout_width="wrap_content"
-                                  android:layout_height="wrap_content"
-                                  android:layout_marginRight="20dp"
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="20dp"
 
-                                  android:src="@mipmap/video_call"
-                                  />
+                                    android:src="@mipmap/video_call"
+                                    />
 
-                              <View
-                                  android:layout_width="1dp"
-                                  android:layout_marginRight="20dp"
-                                  android:layout_height="wrap_content"
-                                  android:background="@color/colorGrey"
-                                  />
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorGrey"
+                                    />
 
-                              <ImageView
-                                  android:layout_width="wrap_content"
-                                  android:layout_height="wrap_content"
-                                  android:layout_marginRight="20dp"
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="20dp"
 
-                                  android:src="@mipmap/chat"
-                                  />
+                                    android:src="@mipmap/chat"
+                                    />
 
-                              <View
-                                  android:layout_width="1dp"
-                                  android:layout_marginRight="20dp"
-                                  android:layout_height="wrap_content"
-                                  android:background="@color/colorGrey"
-                                  />
+                                <View
+                                    android:layout_width="1dp"
+                                    android:layout_marginRight="20dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/colorGrey"
+                                    />
 
-                              <ImageView
-                                  android:layout_width="wrap_content"
-                                  android:layout_height="wrap_content"
-                                  android:src="@mipmap/mail"
-                                  />
-
-
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@mipmap/mail"
+                                    />
 
 
-                          </LinearLayout>
+
+
+                            </LinearLayout>
 
                         </RelativeLayout>
 
@@ -191,205 +192,205 @@
 
 
             <LinearLayout
-              android:layout_width="match_parent"
-              android:layout_height="wrap_content"
-              android:layout_marginTop="-20dp"
-              android:paddingLeft="30dp"
-              android:paddingRight="30dp"
-              android:paddingBottom="20dp"
-              android:layout_marginRight="30dp"
-              android:layout_marginLeft="30dp"
-              android:background="@color/colorWhite">
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="20dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@color/colorWhite">
 
 
 
 
-              <LinearLayout
-                  android:layout_width="match_parent"
-                  android:layout_height="wrap_content"
-                  android:orientation="vertical">
-
-
-
-
-
-                  <LinearLayout
-                      android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:weightSum="2"
-                      android:id="@+id/LinearTp"
-                      android:layout_marginTop="15dp"
-                      android:orientation="horizontal">
-
-                      <LinearLayout
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:orientation="vertical"
-                          android:layout_marginTop="15dp"
-
-                          android:layout_weight="1"
-                          >
-
-                      <TextView
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:textColor="@color/colorText"
-                          android:textStyle="bold"
-                          android:gravity="center"
-                          android:layout_gravity="center"
-                          android:textSize="20dp"
-                          android:text="9 yrs"
-                          />
-
-                      <TextView
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:text="EXPERIENCE"
-                          android:gravity="center"
-                          android:layout_gravity="center"
-                          />
-
-
-                      </LinearLayout>
-
-
-                      <View
-                          android:layout_width="1dp"
-                          android:layout_height="100dp"
-                          android:layout_marginTop="25dp"
-                          android:layout_centerHorizontal="true"
-                          android:background="@color/colorGrey"
-                          />
-
-
-                      <LinearLayout
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:orientation="vertical"
-                          android:layout_marginTop="15dp"
-
-                          android:layout_weight="1"
-                          >
-
-                          <TextView
-                              android:layout_width="wrap_content"
-                              android:layout_height="wrap_content"
-                              android:textColor="@color/colorText"
-                              android:textStyle="bold"
-                              android:gravity="center"
-                              android:layout_gravity="center"
-                              android:textSize="20dp"
-                              android:text="9 yrs"
-                              />
-
-                          <TextView
-                              android:layout_width="wrap_content"
-                              android:layout_height="wrap_content"
-                              android:text="EXPERIENCE"
-                              android:gravity="center"
-                              android:layout_gravity="center"
-                              />
-
-
-                      </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
 
 
 
 
-                  </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:id="@+id/LinearTp"
+                        android:layout_marginTop="15dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="15dp"
+
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorText"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:text="9 yrs"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="EXPERIENCE"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                />
 
 
+                        </LinearLayout>
 
 
-                  <LinearLayout
-                      android:layout_width="match_parent"
-                      android:layout_height="wrap_content"
-                      android:weightSum="2"
-                      android:layout_marginTop="-50dp"
-                      android:orientation="horizontal">
-
-                      <LinearLayout
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:orientation="vertical"
-                          android:layout_weight="1"
-                          >
-
-                          <TextView
-                              android:layout_width="wrap_content"
-                              android:layout_height="wrap_content"
-                              android:textColor="@color/colorText"
-                              android:textStyle="bold"
-                              android:gravity="center"
-                              android:layout_gravity="center"
-                              android:textSize="20dp"
-                              android:text="9 yrs"
-                              />
-
-                          <TextView
-                              android:layout_width="wrap_content"
-                              android:layout_height="wrap_content"
-                              android:text="EXPERIENCE"
-                              android:gravity="center"
-                              android:layout_gravity="center"
-                              />
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="25dp"
+                            android:layout_centerHorizontal="true"
+                            android:background="@color/colorGrey"
+                            />
 
 
-                      </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="15dp"
+
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorText"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:text="$60"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="FEE"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                />
 
 
-
-                      <LinearLayout
-                          android:layout_width="wrap_content"
-                          android:layout_height="wrap_content"
-                          android:orientation="vertical"
-                          android:layout_weight="1"
-                          >
-
-                          <TextView
-                              android:layout_width="wrap_content"
-                              android:layout_height="wrap_content"
-                              android:textColor="@color/colorText"
-                              android:textStyle="bold"
-                              android:gravity="center"
-                              android:layout_gravity="center"
-                              android:textSize="20dp"
-                              android:text="9 yrs"
-                              />
-
-                          <TextView
-                              android:layout_width="wrap_content"
-                              android:layout_height="wrap_content"
-                              android:text="EXPERIENCE"
-                              android:gravity="center"
-                              android:layout_gravity="center"
-                              />
-
-
-                      </LinearLayout>
-
-
-
-
-
-                  </LinearLayout>
-
-                  <View
-                      android:layout_width="match_parent"
-                      android:layout_height="1dp"
-                      android:layout_marginTop="-50dp"
-                      android:background="@drawable/border_bottom"
-                      />
-
-
-              </LinearLayout>
+                        </LinearLayout>
 
 
 
 
 
-          </LinearLayout>
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:layout_marginTop="-50dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorText"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:text="Dentist"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SPECIALIZATION"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_weight="1"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/colorText"
+                                android:textStyle="bold"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:textSize="20dp"
+                                android:text="95%"
+                                />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="RATING"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="-50dp"
+                        android:background="@drawable/border_bottom"
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
 
 
         </LinearLayout>
@@ -399,7 +400,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative2"
@@ -420,7 +420,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Hospital"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -444,6 +444,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative2show"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -859,7 +861,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5"
@@ -871,7 +872,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/medical_specialists"
                 />
 
 
@@ -880,7 +881,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Medical Specialities"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -904,6 +905,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative5show"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -1151,10 +1154,10 @@
 
 
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:hint="Lorem Ispum is simple a dummy text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Lorem Ispum is simple a dummy text" />
 
 
 
@@ -1244,10 +1247,10 @@
 
 
 
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:hint="Lorem Ispum is simple a dummy text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="Lorem Ispum is simple a dummy text" />
 
 
 
@@ -1274,7 +1277,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5n3"
@@ -1286,7 +1288,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/experiences"
                 />
 
 
@@ -1295,7 +1297,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Experiences"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -1319,6 +1321,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:id="@+id/Relative5n3show"
             android:layout_marginRight="10dp"
             >
 
@@ -1689,7 +1693,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5n4th"
@@ -1701,7 +1704,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/educations"
                 />
 
 
@@ -1710,7 +1713,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Education"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -1734,6 +1737,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative5n4thshow"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -2104,7 +2109,6 @@
             android:layout_height="wrap_content"
             android:paddingBottom="20dp"
             android:clickable="true"
-            android:onClick="onClick"
             android:background="@color/colorWhite"
             android:paddingTop="20dp"
             android:id="@+id/Relative5n5th"
@@ -2116,7 +2120,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:src="@mipmap/suburban"
+                android:src="@mipmap/patient_review_highlights"
                 />
 
 
@@ -2125,7 +2129,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:paddingLeft="45dp"
+                android:paddingLeft="55dp"
                 android:text="Patient Review Highlights"
                 android:textColor="@color/colorText"
                 android:textStyle="bold"
@@ -2149,6 +2153,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:id="@+id/Relative5n5thshow"
+            android:visibility="gone"
             android:layout_marginRight="10dp"
             >
 
@@ -2512,31 +2518,31 @@
 
         </RelativeLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorWhite"
-        android:layout_marginTop="20dp"
-        android:paddingTop="10dp"
-        android:layout_gravity="bottom">
-
-
-        <Button
-            android:id="@+id/confirm_app"
-            android:layout_alignParentBottom="true"
-            android:layout_marginRight="25dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginBottom="20dp"
-            android:background="#58a7f2"
-            android:textAllCaps="false"
-            android:textColor="#fff"
-            android:text="Book Appointment"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="35dp" />
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:layout_marginTop="20dp"
+            android:paddingTop="10dp"
+            android:layout_gravity="bottom">
+
+
+            <Button
+                android:id="@+id/confirm_app"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="20dp"
+                android:background="#58a7f2"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:text="Book Appointment"
+                android:layout_width="match_parent"
+                android:layout_height="35dp" />
 
 
 
-    </LinearLayout>
+        </LinearLayout>
 
 
     </LinearLayout>

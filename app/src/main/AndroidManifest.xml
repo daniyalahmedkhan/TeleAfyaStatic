@@ -36,7 +36,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".Ui.Patient_Ui.Patient_HomeActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -48,7 +47,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Ui.Activities.Splash_Screen"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -73,9 +71,9 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <!--<meta-data-->
-            <!--android:name="com.google.android.maps.v2.API_KEY"-->
-            <!--android:value="AIzaSyBvHMcbTOCo0BnwqQLPBmyk5y3nCUY-sKk" />-->
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.maps.v2.API_KEY" -->
+        <!-- android:value="AIzaSyBvHMcbTOCo0BnwqQLPBmyk5y3nCUY-sKk" /> -->
 
         <activity
             android:name=".Ui.Patient_Ui.Patient_Timeline_Activity"
@@ -210,7 +208,10 @@
         <activity
             android:name=".Ui.Doctor_Ui.AddEducation_Doctor"
             android:label="@string/title_activity_doctor__location" />
-
+        <activity android:name=".Ui.Patient_Ui.Order_Activity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            ></activity>
     </application>
 
 </manifest>

@@ -10,10 +10,10 @@ import android.widget.LinearLayout;
 import com.example.ast.teleafya.R;
 
 /**
- * Created by Kashif on 11/20/2017.
+ * Created by Kashif on 11/22/2017.
  */
 
-public class DoctorsTab extends android.support.v4.app.Fragment  {
+public class Order_Medicine_PLP extends android.support.v4.app.Fragment {
 
 
     LinearLayout linearLayout;
@@ -26,20 +26,20 @@ public class DoctorsTab extends android.support.v4.app.Fragment  {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.order_medicine_plp,null);
 
-        View view = inflater.inflate(R.layout.doctors,null);
-
-        linearLayout = (LinearLayout)view.findViewById(R.id.Linear1);
-
+        linearLayout = (LinearLayout)view.findViewById(R.id.LIPID);
 
         linearLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                getActivity().getSupportFragmentManager().beginTransaction().add(android.R.id.content , new Doctor_Details()).commit();
+                getActivity().getSupportFragmentManager().beginTransaction().replace(android.R.id.content , new Order_Medicine_PDP()).commit();
+
 
             }
         });
+
         return view;
     }
 }
